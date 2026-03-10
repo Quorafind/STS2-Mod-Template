@@ -1,0 +1,15 @@
+{
+  "MY_CHARACTER.title": "My Character",
+  "MY_CHARACTER.description": "A custom character with unique mechanics.\nReplace this with your character's description.",
+  "MY_CHARACTER.aromaPrinciple": "[sine][color=#4FC3F7]I am ready for adventure.[/color][/sine]",
+  "MY_CHARACTER.cardsModifierDescription": "My Character cards will now appear in rewards and shops.",
+  "MY_CHARACTER.cardsModifierTitle": "My Character Cards",
+  "MY_CHARACTER.eventDeathPrevention": "I won't fall here.",
+  "MY_CHARACTER.goldMonologue": "[sine]Every coin counts.[/sine]",
+  "MY_CHARACTER.possessiveAdjective": "his",
+  "MY_CHARACTER.pronounObject": "him",
+  "MY_CHARACTER.pronounPossessive": "his",
+  "MY_CHARACTER.pronounSubject": "he",
+  "MY_CHARACTER.titleObject": "My Character",
+  "MY_CHARACTER.unlockText": "My Character is ready to play."
+}

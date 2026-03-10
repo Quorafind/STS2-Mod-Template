@@ -1,0 +1,8 @@
+{
+  "EXAMPLE_BUFF.title": "示例增益",
+  "EXAMPLE_BUFF.description": "每层增加 [blue]{Amount}[/blue]0% 伤害。",
+  "EXAMPLE_BUFF.smartDescription": "每层增加 [blue]{Amount}[/blue]0% 伤害。",
+  "EXAMPLE_DEBUFF.title": "示例减益",
+  "EXAMPLE_DEBUFF.description": "获得的格挡减少 [blue]{Amount}[/blue] 点。",
+  "EXAMPLE_DEBUFF.smartDescription": "获得的格挡减少 [blue]{Amount}[/blue] 点。"
+}

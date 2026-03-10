@@ -1,0 +1,15 @@
+{
+  "MY_CHARACTER.title": "我的角色",
+  "MY_CHARACTER.description": "一个拥有独特机制的自定义角色。\n请替换为你的角色描述。",
+  "MY_CHARACTER.aromaPrinciple": "[sine][color=#4FC3F7]我已准备好冒险。[/color][/sine]",
+  "MY_CHARACTER.cardsModifierDescription": "我的角色的卡牌将出现在奖励和商店中。",
+  "MY_CHARACTER.cardsModifierTitle": "我的角色卡牌",
+  "MY_CHARACTER.eventDeathPrevention": "我不会在这里倒下。",
+  "MY_CHARACTER.goldMonologue": "[sine]每一枚金币都很重要。[/sine]",
+  "MY_CHARACTER.possessiveAdjective": "他的",
+  "MY_CHARACTER.pronounObject": "他",
+  "MY_CHARACTER.pronounPossessive": "他的",
+  "MY_CHARACTER.pronounSubject": "他",
+  "MY_CHARACTER.titleObject": "我的角色",
+  "MY_CHARACTER.unlockText": "我的角色已准备就绪。"
+}

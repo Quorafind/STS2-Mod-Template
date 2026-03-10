@@ -1,0 +1,10 @@
+{
+  "MY_STRIKE.title": "打击",
+  "MY_STRIKE.description": "造成 {Damage:diff()} 点伤害。",
+  "MY_DEFEND.title": "防御",
+  "MY_DEFEND.description": "获得 {Block:diff()} 点[gold]格挡[/gold]。",
+  "SIGNATURE_STRIKE.title": "招牌打击",
+  "SIGNATURE_STRIKE.description": "造成 {Damage:diff()} 点伤害。\n获得 {Strength:diff()} 点[gold]力量[/gold]。",
+  "SIGNATURE_SKILL.title": "招牌技能",
+  "SIGNATURE_SKILL.description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n抽 {Draw:diff()} 张牌。"
+}

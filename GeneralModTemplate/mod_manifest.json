@@ -1,0 +1,7 @@
+{
+  "pck_name": "MyMod",
+  "name": "My Mod",
+  "author": "YourName",
+  "description": "A general-purpose mod for Slay the Spire 2.",
+  "version": "0.1.0"
+}

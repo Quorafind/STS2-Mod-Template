@@ -1,0 +1,10 @@
+{
+  "MY_STRIKE.title": "Strike",
+  "MY_STRIKE.description": "Deal {Damage:diff()} damage.",
+  "MY_DEFEND.title": "Defend",
+  "MY_DEFEND.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "SIGNATURE_STRIKE.title": "Signature Strike",
+  "SIGNATURE_STRIKE.description": "Deal {Damage:diff()} damage.\nGain {Strength:diff()} [gold]Strength[/gold].",
+  "SIGNATURE_SKILL.title": "Signature Skill",
+  "SIGNATURE_SKILL.description": "Gain {Block:diff()} [gold]Block[/gold].\nDraw {Draw:diff()} card."
+}

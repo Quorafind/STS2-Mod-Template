@@ -1,0 +1,7 @@
+{
+  "pck_name": "MyCharacter",
+  "name": "My Character",
+  "author": "YourName",
+  "description": "A custom character mod for Slay the Spire 2.",
+  "version": "0.1.0"
+}

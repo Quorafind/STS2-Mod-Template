@@ -1,0 +1,8 @@
+{
+  "EXAMPLE_BUFF.title": "Example Buff",
+  "EXAMPLE_BUFF.description": "Increases damage by [blue]{Amount}[/blue]0% per stack.",
+  "EXAMPLE_BUFF.smartDescription": "Increases damage by [blue]{Amount}[/blue]0% per stack.",
+  "EXAMPLE_DEBUFF.title": "Example Debuff",
+  "EXAMPLE_DEBUFF.description": "Block gained is reduced by [blue]{Amount}[/blue].",
+  "EXAMPLE_DEBUFF.smartDescription": "Block gained is reduced by [blue]{Amount}[/blue]."
+}
