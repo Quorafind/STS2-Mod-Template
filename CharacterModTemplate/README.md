@@ -9,6 +9,8 @@
    - `MyCharacter` → `你的角色名`（类名、文件名）
    - `MyCharacterMod` → `你的命名空间`
    - `mycharacter` → `你的角色名小写`（资产路径）
+   - `MY_CHARACTER` → `你的角色 ID（全大写下划线）`（本地化键）
+   - `my_character` → `你的角色 ID（小写下划线）`（顶栏图标文件名）
    - `yourname.mycharacter` → `你的名字.你的mod`（Harmony ID）
 3. 重命名 `MyCharacter.csproj` → `你的角色名.csproj`
 4. 修改路径：
@@ -151,14 +153,14 @@ class MyMod : PostInitializeSubscriber, EditCardsSubscriber, ... {
 **STS2：**
 ```csharp
 [ModInitializer(nameof(Init))]
-public static class MyModBootstrap
+public static class MyCharacterBootstrap
 {
     private static bool _initialized;
     public static void Init()
     {
         if (_initialized) return;
         _initialized = true;
-        new Harmony("yourname.mymod").PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("yourname.mycharacter").PatchAll(Assembly.GetExecutingAssembly());
     }
 }
 // 卡牌在 CardPoolModel.GenerateAllCards() 中注册，无需逐个 addCard

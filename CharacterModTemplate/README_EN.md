@@ -6,10 +6,12 @@ A complete template for creating custom playable characters with cards, relics, 
 
 1. Copy this folder to `mods_src/YourCharacterName/`
 2. Find-and-replace:
-   - `MyCharacter` → `YourCharacterName` (class names, file names)
-   - `MyCharacterMod` → `YourNamespace`
-   - `mycharacter` → `yourcharactername` (asset paths, lowercase)
-   - `yourname.mycharacter` → `yourname.yourmod` (Harmony ID)
+    - `MyCharacter` → `YourCharacterName` (class names, file names)
+    - `MyCharacterMod` → `YourNamespace`
+    - `mycharacter` → `yourcharactername` (asset paths, lowercase)
+    - `MY_CHARACTER` → `YOUR_CHARACTER_ID` (localization keys, uppercase snake case)
+    - `my_character` → `your_character_id` (top-panel icon file names, lowercase snake case)
+    - `yourname.mycharacter` → `yourname.yourmod` (Harmony ID)
 3. Rename `MyCharacter.csproj` → `YourCharacterName.csproj`
 4. Update paths:
    - `.csproj` HintPath: `..\..\..\` → `..\..\` (one less `..` since you moved up from mod_templates)

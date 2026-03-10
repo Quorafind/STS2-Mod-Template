@@ -12,15 +12,17 @@
 ## 快速开始
 
 ```bash
+# 假设当前目录是 mods_src/mod_templates
+
 # 1. 复制模板到 mods_src 下
-cp -r CharacterModTemplate ../../MyNewCharacter
+cp -r CharacterModTemplate ../MyNewCharacter
 
 # 2. 全局搜索替换名称（见各模板 README.md）
 
 # 3. 修改 .csproj 和 build.ps1 中的路径（少一层 ..）
 
 # 4. 编译
-cd ../../MyNewCharacter
+cd ../MyNewCharacter
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 

@@ -8,8 +8,11 @@
    - `MyModNamespace` -> `YourNamespace`
    - `yourname.mymod` -> `yourname.yourmod` (Harmony ID)
 3. Rename `MyMod.csproj` -> `YourModName.csproj`
-4. Update `mod_manifest.json` with your mod info
-5. Update `build.ps1` variable: `$modName = "YourModName"`
+4. Update paths after moving the template out of `mod_templates/`:
+   - `.csproj` HintPath: `..\..\..\` -> `..\..\`
+   - `build.ps1` `$repoRoot`: `"..\..\..\"` -> `"..\..\"`
+   - `build.ps1` `$modName = "YourModName"`
+5. Update `mod_manifest.json` with your mod info
 6. Run: `powershell -ExecutionPolicy Bypass -File build.ps1`
 
 ## Project Structure
