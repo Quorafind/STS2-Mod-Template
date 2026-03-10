@@ -32,6 +32,14 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 - Python 3.x（用于 PCK 打包）
 - Pillow（`pip install Pillow`，可选，用于生成占位图）
 
+## 跨平台支持
+
+模板默认使用 `AnyCPU` 平台目标，编译出的 DLL 同时兼容 PC（x86_64）和移动端（ARM64 Android）。
+STS2 在所有平台上都通过 `AssemblyLoadContext.LoadFromAssemblyPath()` 加载 Mod DLL，
+因此同一个 DLL 无需修改即可在 PC 和手机上运行。
+
+> **注意**：请勿将 `PlatformTarget` 改为 `x64`，否则 Mod 将无法在手机上加载。
+
 ## 从 STS1 迁移？
 
 如果你之前开发过一代的角色 Mod（使用 BaseMod + ModTheSpire），请参阅各模板中的 **STS1 迁移指南** 章节。主要变化包括：

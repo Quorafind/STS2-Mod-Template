@@ -105,3 +105,10 @@ static readonly AccessTools.FieldRef<类型, 字段类型> Ref =
 - .NET 9.0 SDK
 - Python 3.x（用于 PCK 打包）
 - 游戏 DLL 位于 `data_sts2_windows_x86_64/`（自动引用）
+
+## 跨平台兼容
+
+项目使用 `AnyCPU` 平台目标，编译出的 DLL 同时兼容 PC（x86_64）和移动端（ARM64 Android）。
+无需分别编译，同一个 DLL 即可在所有平台上运行。
+
+> **注意**：请勿将 `.csproj` 中的 `PlatformTarget` 改为 `x64`，否则 Mod 将无法在手机上加载。

@@ -41,3 +41,11 @@ If you're migrating from a STS1 mod (BaseMod + ModTheSpire), see `README.md` for
 - .NET 9.0 SDK
 - Python 3.x (for PCK packing)
 - Pillow (`pip install Pillow`) - optional, for placeholder images
+- Game DLLs in `data_sts2_windows_x86_64/` (auto-referenced)
+
+## Cross-Platform Support
+
+The project uses `AnyCPU` platform target, so the compiled DLL works on both PC (x86_64) and mobile (ARM64 Android).
+No separate builds needed — the same DLL runs on all platforms.
+
+> **Note**: Do not change `PlatformTarget` to `x64` in the `.csproj`, or the mod will fail to load on mobile.
