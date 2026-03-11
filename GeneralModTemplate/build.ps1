@@ -43,7 +43,11 @@ if (Test-Path $assetSourceDir) {
 Copy-Item (Join-Path $projectDir "mod_manifest.json") (Join-Path $pckRoot "mod_manifest.json") -Force
 
 # Step 4: Pack PCK
-python (Join-Path $repoRoot "_tools\pack_godot_pck.py") `
+$packScript = Join-Path $projectDir "..\_tools\pack_godot_pck.py"
+if (-not (Test-Path $packScript)) {
+  $packScript = Join-Path $repoRoot "_tools\pack_godot_pck.py"
+}
+python $packScript `
   $pckRoot `
   -o $pckPath `
   --engine-version 4.5.1 `
